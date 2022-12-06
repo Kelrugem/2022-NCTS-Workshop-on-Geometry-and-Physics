@@ -1,0 +1,14 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Curved Yang-Mills-Higgs gauge theory}{3}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {1}{1}{Motivation}{3}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Integration (WIP)}{6}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{1}{Principal bundles based on Lie group bundle actions}{6}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{2}{Connections}{12}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Conclusion}{19}{0}{3}
