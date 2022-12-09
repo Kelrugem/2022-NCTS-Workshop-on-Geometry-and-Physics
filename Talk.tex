@@ -33,13 +33,14 @@
 \usepackage{graphicx} %Für raisebox, vertical displacement of figures
 \usetikzlibrary{decorations.markings}
 %Big tilde
+%\makeatletter
 %\def\oversortoftilde#1{\mathop{\vbox{\m@th\ialign{##\crcr\noalign{\kern3\p@}%
       %\sortoftildefill\crcr\noalign{\kern3\p@\nointerlineskip}%
       %$\hfil\displaystyle{#1}\hfil$\crcr}}}\limits}
 %\usepackage[lite]{mtpro2}
 \usepackage{scalerel}
 \usepackage{stackengine,wasysym}
-\newcommand\reallywidetilde[1]{\ThisStyle{%
+\newcommand\oversortoftilde[1]{\ThisStyle{%
   \setbox0=\hbox{$\SavedStyle#1$}%
   \stackengine{-.1\LMpt}{$\SavedStyle#1$}{%
     \stretchto{\scaleto{\SavedStyle\mkern.2mu\AC}{.5150\wd0}}{.6\ht0}%
@@ -643,14 +644,27 @@ But:
 \setbeamertemplate{footline}{}
 
 \begin{frame}{Classical situation}
-
+\begin{remark}[Lie group $G$ situation with Lie algebra $\mathfrak{g}$]
+In the case of a right $G$-action on $\mathcal{P}$, $\Phi: \mathcal{P} \times G\to \mathcal{P}$, we have
+\bas
+\mathrm{D}_{(p, g)}\Phi(X, Y)
+&=
+\mathrm{D}_pr_g(X)
+	+ \mleft.\oversortoftilde{(\mu_G)_g(Y)}\mright|_{p \cdot g}
+\eas
+for all $p \in \mathcal{P}$, $g \in G$, $X \in \mathrm{T}_p\mathcal{P}$ and $Y \in \mathrm{T}_g G$, where 
+\begin{itemize}
+	\item $\oversortoftilde{\nu}$ denotes the fundamental vector field on $\mathcal{P}$ of $\nu \in \mathfrak{g}$,
+	\item $\mu_G$ is the Maurer-Cartan form of G.
+\end{itemize}
+\end{remark}
 \end{frame}
 
 \begin{frame}
 \begin{definition}[Fundamental vector fields]
 \textbf{Fundamental vector fields} defined by
 \bas
-\reallywidetilde{\nu}_p
+\oversortoftilde{\nu}_p
 \coloneqq
 \mleft.\frac{\mathrm{d}}{\mathrm{d}t}\mright|_{t = 0}\mleft( 
 	p \cdot \mathup{e}^{t \nu_{\pi(p)}}
