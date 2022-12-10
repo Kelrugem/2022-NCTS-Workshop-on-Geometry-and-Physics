@@ -674,8 +674,39 @@ for all $\nu \in \Gamma(\mathcal{g})$ and $p \in \mathcal{P}$, where $\mathcal{g
 \end{definition}
 \end{frame}
 
-\begin{frame}{Darboux derivative}
+\begin{frame}
+\begin{definition}[Darboux derivative]
+For $\sigma \in \Gamma(\mathcal{G})$ we define the \textbf{Darboux derivative $\Delta \sigma \in \Omega^1(M; \mathcal{g})$}
+\bas
+\Delta \sigma
+&=
+\sigma^! \mu_{\mathcal{G}},
+\eas
+where $\mu_{\mathcal{G}}$ is the connection 1-form on $\mathcal{G}$.
+\end{definition}
+\end{frame}
 
+\begin{frame}
+\begin{proposition}[Differential of LGB action $\Phi$, {[S.-R.\ F.]}]
+\bas
+\mathrm{D}_{(p, g)}\Phi(X, Y)
+&=
+\mathrm{D}_pr_\sigma(X)
+	- \mleft.{\oversortoftilde{ \mleft.\mleft(\pi^!\Delta \sigma\mright)\mright|_p (X)}}\mright|_{p \cdot g}
+	+ \mleft.{\oversortoftilde{\mleft( \mu_{\mathcal{G}}\mright)_{g} (Y)}}\mright|_{p \cdot g}
+\eas
+\end{proposition}
+\pause
+\begin{definition}[Modified right-pushforward]
+\bas
+\mathcal{r}_{g*}(X)
+&\coloneqq
+\mathrm{D}_pr_\sigma\mleft( X \mright)
+	- \mleft.{\oversortoftilde{
+		\mleft. \mleft( \pi^!\Delta\sigma \mright) \mright|_p(X)
+	}}\mright|_{p \cdot g}
+\eas
+\end{definition}
 \end{frame}
 }
 
