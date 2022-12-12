@@ -32,20 +32,6 @@
 \usepackage{pgfplots}
 \usepackage{graphicx} %Für raisebox, vertical displacement of figures
 \usetikzlibrary{decorations.markings}
-%Big tilde
-%\makeatletter
-%\def\oversortoftilde#1{\mathop{\vbox{\m@th\ialign{##\crcr\noalign{\kern3\p@}%
-      %\sortoftildefill\crcr\noalign{\kern3\p@\nointerlineskip}%
-      %$\hfil\displaystyle{#1}\hfil$\crcr}}}\limits}
-%\usepackage[lite]{mtpro2}
-\usepackage{scalerel}
-\usepackage{stackengine,wasysym}
-\newcommand\oversortoftilde[1]{\ThisStyle{%
-  \setbox0=\hbox{$\SavedStyle#1$}%
-  \stackengine{-.1\LMpt}{$\SavedStyle#1$}{%
-    \stretchto{\scaleto{\SavedStyle\mkern.2mu\AC}{.5150\wd0}}{.6\ht0}%
-  }{O}{c}{F}{T}{S}%
-}}
 
 \definecolor{Gray}{gray}{0.85}
 %\usepackage[style=authortitle-icomp]{biblatex}
@@ -169,6 +155,10 @@
 \def\ees{\end{equation*}}
 \def\bas#1\eas{\begin{align*}#1\end{align*}}
 
+\AtBeginEnvironment{remark}{%
+  \setbeamercolor{block title}{use=example text,fg=black,bg=yellow!75!black}
+  \setbeamercolor{block body}{parent=normal text,use=block title example,bg=yellow!10}
+}
 
 \renewcommand{\qedsymbol}{}
 \theoremstyle{plain}
@@ -522,7 +512,7 @@ But:
 \end{figure}
 
 \bas
-\text{Use } \sigma \in \Gamma(\mathcal{G}): r_\sigma(p) \coloneqq p \cdot \sigma_{\pi(p)}
+\text{Use } \sigma \in \Gamma(\mathcal{G}): r_\sigma(p) \coloneqq p \cdot \sigma_{x}
 \eas
 \end{frame}
 
@@ -637,44 +627,48 @@ But:
 	\end{remark}
 	\end{minipage}
 \end{frame}
-
+}
 \section{Connection}
 \subsection{Basic notions}
-{
-\setbeamertemplate{footline}{}
 
-\begin{frame}{Classical situation}
+\renewcommand\insertreferences{{\tiny  Mark JD Hamilton. Mathematical Gauge Theory. \newline \textit{Springer}, 2017.}}
+
+\begin{frame}{Classical situation: Differential of Lie group action}
 \begin{remark}[Lie group $G$ situation with Lie algebra $\mathfrak{g}$]
 In the case of a right $G$-action on $\mathcal{P}$, $\Phi: \mathcal{P} \times G\to \mathcal{P}$, we have
 \bas
 \mathrm{D}_{(p, g)}\Phi(X, Y)
 &=
 \mathrm{D}_pr_g(X)
-	+ \mleft.\oversortoftilde{(\mu_G)_g(Y)}\mright|_{p \cdot g}
+	+ \mleft.\overline{(\mu_G)_g(Y)}\mright|_{p \cdot g}
 \eas
 for all $p \in \mathcal{P}$, $g \in G$, $X \in \mathrm{T}_p\mathcal{P}$ and $Y \in \mathrm{T}_g G$, where 
 \begin{itemize}
-	\item $\oversortoftilde{\nu}$ denotes the fundamental vector field on $\mathcal{P}$ of $\nu \in \mathfrak{g}$,
+	\item $\overline{\nu}$ denotes the fundamental vector field on $\mathcal{P}$ of $\nu \in \mathfrak{g}$,
 	\item $\mu_G$ is the Maurer-Cartan form of G.
 \end{itemize}
 \end{remark}
 \end{frame}
+\renewcommand\insertreferences{{\tiny Straightforward generalization of classical definition as in: Mark JD Hamilton. Mathematical Gauge Theory. \newline \textit{Springer}, 2017.}}
 
 \begin{frame}
 \begin{definition}[Fundamental vector fields]
 \textbf{Fundamental vector fields} defined by
 \bas
-\oversortoftilde{\nu}_p
+\overline{\nu}_p
 \coloneqq
 \mleft.\frac{\mathrm{d}}{\mathrm{d}t}\mright|_{t = 0}\mleft( 
-	p \cdot \mathup{e}^{t \nu_{\pi(p)}}
+	p \cdot \mathup{e}^{t \nu_{x}}
 \mright)
 \eas
-for all $\nu \in \Gamma(\mathcal{g})$ and $p \in \mathcal{P}$, where $\mathcal{g}$ is the LAB\footnote{Lie algebra bundle} of $\mathcal{G}$.
+for all $\nu \in \Gamma(\mathcal{g})$ and $p \in \mathcal{P}_x$, where $\mathcal{g}$ is the LAB\footnote{Lie algebra bundle} of $\mathcal{G}$.
 \end{definition}
 \end{frame}
 
+\renewcommand\insertreferences{{\tiny Trivial generalization of classical definition as in: K. Mackenzie. General Theory of Lie Groupoids and Algebroids. \newline \textit{London Mathematical Society Lecture Note Series}, 213, 2005.}}
+
 \begin{frame}
+\setbeamercovered{invisible}
 \begin{definition}[Darboux derivative]
 For $\sigma \in \Gamma(\mathcal{G})$ we define the \textbf{Darboux derivative $\Delta \sigma \in \Omega^1(M; \mathcal{g})$}
 \bas
@@ -684,44 +678,140 @@ For $\sigma \in \Gamma(\mathcal{G})$ we define the \textbf{Darboux derivative $\
 \eas
 where $\mu_{\mathcal{G}}$ is the connection 1-form on $\mathcal{G}$.
 \end{definition}
+\pause
+\begin{remark}
+If $\mathcal{G}$ a trivial LGB with canonical flat connection, then $\mu_{\mathcal{G}}$ is the Maurer-Cartan form. 
+
+If Lie group additionally a matrix group, then
+\bas
+\Delta\sigma
+&=
+\sigma^{-1} \mathrm{d}\sigma.
+\eas
+\end{remark}
 \end{frame}
 
+{
+\setbeamertemplate{footline}{}
+\setbeamercovered{invisible}
 \begin{frame}
 \begin{proposition}[Differential of LGB action $\Phi$, {[S.-R.\ F.]}]
+We have
 \bas
 \mathrm{D}_{(p, g)}\Phi(X, Y)
 &=
 \mathrm{D}_pr_\sigma(X)
-	- \mleft.{\oversortoftilde{ \mleft.\mleft(\pi^!\Delta \sigma\mright)\mright|_p (X)}}\mright|_{p \cdot g}
-	+ \mleft.{\oversortoftilde{\mleft( \mu_{\mathcal{G}}\mright)_{g} (Y)}}\mright|_{p \cdot g}
+	- \mleft.{\overline{
+		\mleft.\mleft(\pi^!\Delta \sigma\mright)\mright|_p (X)
+	}}\mright|_{p \cdot g}
+	+ \mleft.{\overline{
+		\mleft( \mu_{\mathcal{G}}\mright)_{g} (Y)
+	}}\mright|_{p \cdot g}
 \eas
+for all $(p, g) \in \mathcal{P}_x \times \mathcal{G}_x$, $(X, Y) \in \mathrm{T}_{(p, g)}(\mathcal{P} * \mathcal{G})$, where $\sigma$ is any section of $\mathcal{G}$ with $\sigma_{x} = g$.
 \end{proposition}
 \pause
-\begin{definition}[Modified right-pushforward]
+\begin{definition}[Modified right-pushforward, {[S.-R.\ F.]}]
 \bas
 \mathcal{r}_{g*}(X)
 &\coloneqq
 \mathrm{D}_pr_\sigma\mleft( X \mright)
-	- \mleft.{\oversortoftilde{
+	- \mleft.{\overline{
 		\mleft. \mleft( \pi^!\Delta\sigma \mright) \mright|_p(X)
-	}}\mright|_{p \cdot g}
+	}}\mright|_{p \cdot g},
+\\
+\mathcal{r}_{\sigma*}(X)
+&\coloneqq
+\mathcal{r}_{\sigma_x*}(X).
 \eas
 \end{definition}
 \end{frame}
-}
 
-\subsection{... as horizontal distribution}
-{
-\setbeamertemplate{footline}{}
-\begin{frame}{Ehresmann connection}
-
+\begin{frame}
+\begin{proposition}[Well-defined isomorphism, {[S.-R.\ F.]}]
+We have that
+\bas
+\mleft.\mathrm{T}\mathcal{P}\mright|_{\mathcal{P}_x} &\to \mleft.\mathrm{T}\mathcal{P}\mright|_{\mathcal{P}_x},\\
+X 
+&\mapsto 
+\mathcal{r}_{g*}(X),
+\eas
+is a well-defined automorphism over $r_g$. Similarly,
+\bas
+\mathrm{T}\mathcal{P} &\to \mathrm{T}\mathcal{P},\\
+X 
+&\mapsto 
+\mathcal{r}_{\sigma*}(X),
+\eas
+is an automorphism over $r_\sigma$.
+\end{proposition}
 \end{frame}
 }
 
-\subsection{... as connection 1-form}
+\subsection{Definitions}
 {
 \setbeamertemplate{footline}{}
-\begin{frame}{Field of gauge bosons}
+\setbeamercovered{invisible}
+\begin{frame}
+\begin{definition}[Ehresmann connection, {[S.-R.\ F.]}]
+$H$ a horizontal  distribution of $\mathrm{T}\mathcal{P}$ with
+\bas
+\mathcal{r}_{g*}\mleft( H_p \mright)
+&=
+H_{p\cdot g}
+\eas
+\end{definition}
+
+\pause
+
+\begin{definition}[Connection 1-form, {[S.-R.\ F.]}]
+$A \in \Omega^1(\mathcal{P}; \pi^*\mathcal{g})$ with
+\bas
+\mathcal{r}_\sigma^! A
+&=
+\mathrm{Ad}_{\sigma^{-1}} \circ A,
+\\
+A\mleft(\overline{\nu}\mright)
+&=
+\pi^*\nu
+\eas
+for all $\sigma \in \Gamma(\mathcal{G})$ and $\nu \in \Gamma(\mathcal{g})$.
+\end{definition}
+
+%\pause
+
+\begin{remark}
+\bas
+\mleft(\mathcal{r}_\sigma^! A\mright)_p(X)
+&=
+A_{p\sigma_x}\bigl(\mathcal{r}_{\sigma*}(X)\bigr).
+\eas
+\end{remark}
+\end{frame}
+
+\begin{frame}
+\begin{theorem}[Equivalence of both definitions, {[S.-R.\ F.]}]
+There is the usual 1:1 correspondence between both definitions:
+\begin{itemize}
+	\item Given $H$, define $A$ by
+	\bas
+	A_p(\overline{\nu}_p + X)
+	&\coloneqq
+	\mleft(\pi^*\nu\mright)_p,
+	\eas
+	where $X \in H_p$.
+	\item Given $A$, define $H$ by
+	\bas
+	H_p
+	&\coloneqq
+	\mathrm{Ker}(A_p).
+	\eas
+\end{itemize}
+\end{theorem}
+\end{frame}
+
+\subsection{Gauge transformation}
+\begin{frame}
 
 \end{frame}
 }
@@ -729,6 +819,9 @@ where $\mu_{\mathcal{G}}$ is the connection 1-form on $\mathcal{G}$.
 \section{Curvature}
 {
 \setbeamertemplate{footline}{}
+\begin{frame}
+
+\end{frame}
 }
 
 \section{Conclusion}
