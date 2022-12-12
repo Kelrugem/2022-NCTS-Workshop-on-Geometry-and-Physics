@@ -676,13 +676,17 @@ For $\sigma \in \Gamma(\mathcal{G})$ we define the \textbf{Darboux derivative $\
 &=
 \sigma^! \mu_{\mathcal{G}},
 \eas
-where $\mu_{\mathcal{G}}$ is the connection 1-form on $\mathcal{G}$.
+where $\mu_{\mathcal{G}}$ is given by
+\bas
+\mleft(\mu_{\mathcal{G}}\mright)_g
+&\coloneqq
+\mathrm{D}_gL_{g^{-1}} \circ \pi^v,
+\eas
+$\pi^v$ the projection onto the vertical bundle.
 \end{definition}
 \pause
 \begin{remark}
-If $\mathcal{G}$ a trivial LGB with canonical flat connection, then $\mu_{\mathcal{G}}$ is the Maurer-Cartan form. 
-
-If Lie group additionally a matrix group, then
+If $\mathcal{G}$ a trivial LGB with canonical flat connection and if Lie group additionally a matrix group, then
 \bas
 \Delta\sigma
 &=
@@ -812,15 +816,84 @@ There is the usual 1:1 correspondence between both definitions:
 
 \subsection{Gauge transformation}
 \begin{frame}
-
+\begin{theorem}[Gauge transformation, {[S.-R.\ F.]}]
+Let $s_i$, $s_j$ be two sections of $\mathcal{P}$ over $U_i$ and $U_j$, respectively, which are open subsets of $M$ with $U_i \cap U_j \neq \emptyset$. Then over $U_i \cap U_j$
+\bas
+A_{s_i}
+&=
+\mathrm{Ad}_{\sigma_{ji}^{-1}}\circ A_{s_j}
+	+ \Delta\sigma_{ji},
+\eas
+where $A_{s_i} \coloneqq s_i^!A$ and $\sigma_{ji}$ a section of $\mathcal{G}$ with $s_i = s_j \cdot \sigma_{ji}$.
+\end{theorem}
 \end{frame}
 }
 
 \section{Curvature}
+\subsection{Compatibility conditions}
+
+\renewcommand\insertreferences{{\tiny Similar construction as in: Camille Laurent-Gengoux, Mathieu Stiénon, and Ping Xu. Non-abelian differentiable gerbes. \newline \textit{Advances in Mathematics}, 220(5):1357–1427, 2009.}}
+
+\begin{frame}
+\begin{proposition}[Connection on $\mathcal{g}$, {[S.-R.\ F.]}]
+We have an induced vector bundle connection on $\mathcal{g}$ given by
+\bas
+\nabla^{\mathcal{G}} \nu
+&\coloneqq
+\mleft.\frac{\mathrm{d}}{\mathrm{d}t}\mright|_{t=0} \Delta \mathup{e}^{t \nu}.
+\eas
+\end{proposition}
+\end{frame}
+
 {
 \setbeamertemplate{footline}{}
 \begin{frame}
+\begin{definition}[Compatibility conditions, {[S.-R.\ F.]}]
+$\mu_{\mathcal{G}}$ a \textbf{Yang-Mills connection (w.r.t.\ $\zeta \in \Omega^2(M; \mathcal{g})$)} if it satisfies the \textbf{compatibility conditions}:
+\begin{enumerate}
+	\item $\mu_{\mathcal{G}}$ a connection 1-form on $\mathcal{G}$;
+	\item $\mu_{\mathcal{G}}$ satisfies the \textbf{generalised Maurer-Cartan equation}
+	\bas
+	\mleft.\mleft(\mathrm{d}^{\nabla^{\mathcal{G}}} \mu_{\mathcal{G}}
+	+ \frac{1}{2} \mleft[ \mu_{\mathcal{G}} \stackrel{\wedge}{,} \mu_{\mathcal{G}} \mright]_{\mathcal{g}} \mright)\mright|_g
+&=
+\mathrm{Ad}_{g^{-1}} \circ \mleft.\pi_{\mathcal{G}}^!\zeta\mright|_g
+	- \mleft.\pi_{\mathcal{G}}^!\zeta\mright|_g
+	\eas
+\end{enumerate}
+\end{definition}
+\end{frame}
+}
 
+\renewcommand\insertreferences{{\tiny Camille Laurent-Gengoux, Mathieu Stiénon, and Ping Xu. Non-abelian differentiable gerbes. \newline \textit{Advances in Mathematics}, 220(5):1357–1427, 2009.}}
+
+\begin{frame}
+\begin{proposition}[$\nabla^{\mathcal{G}}$ a Lie bracket derivation]
+Let $\mu_{\mathcal{G}}$ be a connection 1-form on $\mathcal{G}$, then
+\bas
+\nabla^{\mathcal{G}}\mleft( \mleft[ \mu, \nu \mright]_{\mathcal{g}} \mright)
+&=
+\mleft[ \nabla^{\mathcal{G}} \mu, \nu \mright]_{\mathcal{g}}
+	+ \mleft[ \mu, \nabla^{\mathcal{G}} \nu \mright]_{\mathcal{g}}.
+\eas
+\end{proposition}
+
+\begin{remark}
+Recall, $\mathcal{G}$ a principal $\mathcal{G}$-bundle.
+\end{remark}
+\end{frame}
+
+{
+\setbeamertemplate{footline}{}
+\begin{frame}
+\begin{theorem}[Curvature of LAB connection exact, {[S.-R.\ F.]}]
+$\mu_{\mathcal{G}}$ satisfies the generalized Maurer-Cartan equation w.r.t.\ $\zeta$ if and only if 
+\bas
+R_{\nabla^{\mathcal{G}}}
+&=
+\mathrm{ad} \circ \zeta.
+\eas
+\end{theorem}
 \end{frame}
 }
 
