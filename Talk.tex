@@ -851,11 +851,11 @@ We have an induced vector bundle connection on $\mathcal{g}$ given by
 \begin{definition}[Compatibility conditions, {[S.-R.\ F.]}]
 $\mu_{\mathcal{G}}$ a \textbf{Yang-Mills connection (w.r.t.\ $\zeta \in \Omega^2(M; \mathcal{g})$)} if it satisfies the \textbf{compatibility conditions}:
 \begin{enumerate}
-	\item $\mu_{\mathcal{G}}$ a connection 1-form on $\mathcal{G}$;
+	\item $\mu_{\mathcal{G}}$ a connection 1-form on $\mathcal{G} \stackrel{\pi_{\mathcal{G}}}{\to} M$;
 	\item $\mu_{\mathcal{G}}$ satisfies the \textbf{generalised Maurer-Cartan equation}
 	\bas
-	\mleft.\mleft(\mathrm{d}^{\nabla^{\mathcal{G}}} \mu_{\mathcal{G}}
-	+ \frac{1}{2} \mleft[ \mu_{\mathcal{G}} \stackrel{\wedge}{,} \mu_{\mathcal{G}} \mright]_{\mathcal{g}} \mright)\mright|_g
+	\mleft.\mleft(\mathrm{d}^{\pi_{\mathcal{G}}^*\nabla^{\mathcal{G}}} \mu_{\mathcal{G}}
+	+ \frac{1}{2} \mleft[ \mu_{\mathcal{G}} \stackrel{\wedge}{,} \mu_{\mathcal{G}} \mright]_{\pi_{\mathcal{G}}^*\mathcal{g}} \mright)\mright|_g
 &=
 \mathrm{Ad}_{g^{-1}} \circ \mleft.\pi_{\mathcal{G}}^!\zeta\mright|_g
 	- \mleft.\pi_{\mathcal{G}}^!\zeta\mright|_g
@@ -912,12 +912,87 @@ such that the compatibility conditions are equivalent to
 &=
 0,
 \\
-\mathrm{d}^{\nabla^{\mathcal{G}}} \mu_{\mathcal{G}}
-	+ \frac{1}{2} \mleft[ \mu_{\mathcal{G}} \stackrel{\wedge}{,} \mu_{\mathcal{G}} \mright]_{\mathcal{g}}
+\mathrm{d}^{\pi_{\mathcal{G}}^*\nabla^{\mathcal{G}}} \mu_{\mathcal{G}}
+	+ \frac{1}{2} \mleft[ \mu_{\mathcal{G}} \stackrel{\wedge}{,} \mu_{\mathcal{G}} \mright]_{\pi_{\mathcal{G}}^*\mathcal{g}}
 &=
 \delta \zeta.
 \eas
 \end{remark}
+\end{frame}
+
+\subsection{Definition and properties}
+
+{
+\setbeamertemplate{footline}{}
+\begin{frame}
+\begin{definition}[Generalized curvature/field strength $F$ of $A$, {[S.-R.\ F.]}]
+$\pi^H$ denotes the projection onto $H \subset \mathrm{T}\mathcal{P}$, then we define
+\bas
+F
+&\coloneqq
+\mathrm{d}^{\pi^*\nabla^{\mathcal{G}}} A \circ \mleft( \pi^{\mathrm{H}\mathcal{P}}, \pi^{\mathrm{H}\mathcal{P}} \mright)
+	+ \pi^!\zeta.
+\eas
+\end{definition}
+
+\begin{theorem}[Structure equation, {[S.-R.]}]
+\bas
+F
+=
+\mathrm{d}^{\pi^*\nabla^{\mathcal{G}}} A
+	+ \frac{1}{2} \mleft[ A \stackrel{\wedge}{,} A \mright]_{\pi^*\mathcal{g}}
+	+ \pi^!\zeta.
+\eas
+\end{theorem}
+\end{frame}
+
+\begin{frame}
+\setbeamercovered{invisible}
+
+\begin{proposition}[Properties of $F$, {[S.-R.\ F.]}]
+\begin{itemize}
+	\item $\mathcal{r}_{\sigma}^!F 	= 	\mathrm{Ad}_{\sigma^{-1}} \circ F$,
+	\item $F(X, \cdot) = 0$, if $X$ vertical.
+\end{itemize}
+\end{proposition}
+
+\pause
+
+\begin{theorem}[Gauge transformation, {[S.-R.\ F.]}]
+Let $s_i$, $s_j$ be two sections of $\mathcal{P}$ over $U_i$ and $U_j$, respectively, which are open subsets of $M$ with $U_i \cap U_j \neq \emptyset$. Then over $U_i \cap U_j$
+\bas
+F_{s_i}
+&=
+\mathrm{Ad}_{\sigma_{ji}^{-1}}\circ F_{s_j},
+\eas
+where $F_{s_i} \coloneqq s_i^!F$ and $\sigma_{ji}$ a section of $\mathcal{G}$ with $s_i = s_j \cdot \sigma_{ji}$.
+\end{theorem}
+\end{frame}
+}
+
+\section{Curved Yang-Mills gauge theory}
+
+\begin{frame}
+\begin{theorem}[Lagrangian, {[S.-R.\ F.]}]
+\begin{itemize}
+	\item $\kappa$ be an $\mathrm{Ad}$-invariant fibre metric on $\mathcal{g}$, 
+	\item $M$ a spacetime, and $*$ its Hodge star operator, 
+	\item $\mleft( U_i \mright)_i$ open covering of $M$ with subordinate gauges $s_i \in \Gamma\mleft(\mathcal{P}|_{U_i}\mright)$.
+\end{itemize}
+Then the Lagrangian $\mathfrak{L}_{\mathrm{CYM}}[A]$, defined locally by
+\bas
+\mleft.\bigl(\mathfrak{L}_{\mathrm{CYM}}[A]\bigr)\mright|_{U_i}
+&\coloneqq 
+- \frac{1}{2} \kappa \mleft( F_{s_i} \stackrel{\wedge}{,} *F_{s_i} \mright),
+\eas
+is well-defined, and
+\bas
+\mathfrak{L}_{\mathrm{CYM}}\mleft[ L^!A \mright]
+&=
+\mathfrak{L}_{\mathrm{CYM}}[A]
+\eas
+for all principal bundle automorphisms $L$.
+\end{theorem}
 \end{frame}
 
 \section{Conclusion}
