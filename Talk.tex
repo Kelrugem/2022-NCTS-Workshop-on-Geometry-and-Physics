@@ -865,9 +865,11 @@ $\mu_{\mathcal{G}}$ a \textbf{Yang-Mills connection (w.r.t.\ $\zeta \in \Omega^2
 \end{frame}
 }
 
-\renewcommand\insertreferences{{\tiny Camille Laurent-Gengoux, Mathieu Stiénon, and Ping Xu. Non-abelian differentiable gerbes. \newline \textit{Advances in Mathematics}, 220(5):1357–1427, 2009.}}
+\renewcommand\insertreferences{{\tiny For the first statement: Camille Laurent-Gengoux, Mathieu Stiénon, and Ping Xu. Non-abelian differentiable gerbes. \newline \textit{Advances in Mathematics}, 220(5):1357–1427, 2009.}}
 
 \begin{frame}
+\setbeamercovered{invisible}
+
 \begin{proposition}[$\nabla^{\mathcal{G}}$ a Lie bracket derivation]
 Let $\mu_{\mathcal{G}}$ be a connection 1-form on $\mathcal{G}$, then
 \bas
@@ -881,11 +883,9 @@ Let $\mu_{\mathcal{G}}$ be a connection 1-form on $\mathcal{G}$, then
 \begin{remark}
 Recall, $\mathcal{G}$ a principal $\mathcal{G}$-bundle.
 \end{remark}
-\end{frame}
 
-{
-\setbeamertemplate{footline}{}
-\begin{frame}
+\pause
+
 \begin{theorem}[Curvature of LAB connection exact, {[S.-R.\ F.]}]
 $\mu_{\mathcal{G}}$ satisfies the generalized Maurer-Cartan equation w.r.t.\ $\zeta$ if and only if 
 \bas
@@ -895,7 +895,30 @@ R_{\nabla^{\mathcal{G}}}
 \eas
 \end{theorem}
 \end{frame}
-}
+
+\renewcommand\insertreferences{{\tiny For differential: Marius Crainic, Maria Amelia Salazar, and Ivan Struchiner. Multiplicative forms and Spencer operators. \newline \textit{Mathematische Zeitschrift}, 279(3):939–979, 2015.}}
+
+\begin{frame}
+\begin{remark}
+There is a simplicial differential on $\mathcal{G} \stackrel{\pi_{\mathcal{G}}}{\to} M$
+\bas
+\delta: \Omega^\bullet( \underbrace{\mathcal{G} * \dotsc * \mathcal{G}}_{k \text{ times}}; \pi_{\mathcal{G}}^*\mathcal{g} )
+&\to
+\Omega^\bullet( \underbrace{\mathcal{G} * \dotsc * \mathcal{G}}_{k + 1 \text{ times}}; \pi_{\mathcal{G}}^*\mathcal{g} )
+\eas
+such that the compatibility conditions are equivalent to
+\bas
+\delta \mu_{\mathcal{G}}
+&=
+0,
+\\
+\mathrm{d}^{\nabla^{\mathcal{G}}} \mu_{\mathcal{G}}
+	+ \frac{1}{2} \mleft[ \mu_{\mathcal{G}} \stackrel{\wedge}{,} \mu_{\mathcal{G}} \mright]_{\mathcal{g}}
+&=
+\delta \zeta.
+\eas
+\end{remark}
+\end{frame}
 
 \section{Conclusion}
 {
