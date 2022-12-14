@@ -202,11 +202,11 @@
 \tableofcontents
 \end{frame} 
 }
-\section{Infinitesimal curved Yang-Mills-Higgs gauge theories}
-\subsection{Motivation and short introduction}
+\section{Infinitesimal theory}
+%\subsection{Motivation and short introduction}
 {
 \setbeamertemplate{footline}{}
-\begin{frame}{\textbf{Infinitesimal} gauge theory}
+\begin{frame}{\textbf{Infinitesimal} curved Yang-Mills-Higgs gauge theory}
 \centering
 \begin{tikzpicture}
 \filldraw [fill=gray!10!white, draw=black] plot [smooth cycle] coordinates {(5,0.25) (6,0.35) (6.5, 0.2) (7,0.5) (7,1.65) (6.5,2.75) (5.8,2.75) (5.3,1.45) (4.8,0.85) } node at (6.2,1.7) {$(N, g)$} node at (6.2, 3.2) {Riemannian manifold};
@@ -971,6 +971,10 @@ where $F_{s_i} \coloneqq s_i^!F$ and $\sigma_{ji}$ a section of $\mathcal{G}$ wi
 }
 
 \section{Curved Yang-Mills gauge theory}
+\subsection{Definition}
+
+{
+\setbeamertemplate{footline}{}
 
 \begin{frame}
 \begin{theorem}[Lagrangian, {[S.-R.\ F.]}]
@@ -995,27 +999,52 @@ for all principal bundle automorphisms $L$.
 \end{theorem}
 \end{frame}
 
+\subsection{Example}
+
+\begin{frame}
+\begin{example}[Hopf fibration $\mathds{S}^7 \to \mathds{S}^4$, {[S.-R.\ F.]}]
+Let $P$ be the Hopf bundle
+\begin{center}
+	\begin{tikzcd}[ampersand replacement=\&, column sep=small]
+		\mathrm{SU}(2) \cong \mathds{S}^3 \arrow{r}	\& \mathds{S}^7 \arrow{d} \\
+			\& \mathds{S}^4
+	\end{tikzcd}
+\end{center}
+Define $\mathcal{P} \coloneqq \mathcal{G}$ as the inner group bundle of $P$,
+\bas
+\mathcal{G}
+&\coloneqq
+c_{\mathrm{SU}(2)}(P)
+\coloneqq 
+(P\times G) \Big/ G.
+\eas
+This principal $c_{\mathrm{SU}(2)}(P)$-bundle admits the structure as curved Yang-Mills gauge theory; there is no description as flat theory.
+\end{example}
+\end{frame}
+
+}
+
 \section{Conclusion}
 {
 \setbeamertemplate{footline}{}
-\begin{frame}{Summary}
-\begin{table}[h!]
-		\begin{tabularx}{\textwidth}{X| c c} 
-			\rowcolor{gray}
-			& Locally & Globally \\ \hline
-			Curved Yang-Mills & Pre-classical & $\mathrm{ad}(\mathds{S}^7 \to \mathds{S}^4)$ curved 
-			%\\
-			%\rowcolor{Gray}
-			%Tangent bundles & Pre-classical & $\mathrm{T}\mathds{S}^7$ curved \\
-		\end{tabularx}
-\end{table}
-\begin{remark}[Integrated point of view]
-This is probably linked to that an LGB is locally trivial 
-
-$\rightsquigarrow$ LGB action locally equivalent to a Lie group action
-\end{remark}
-
-\end{frame}
+%\begin{frame}{Summary}
+%\begin{table}[h!]
+		%\begin{tabularx}{\textwidth}{X| c c} 
+			%\rowcolor{gray}
+			%& Locally & Globally \\ \hline
+			%Curved Yang-Mills & Pre-classical & $\mathrm{ad}(\mathds{S}^7 \to \mathds{S}^4)$ curved 
+			%%\\
+			%%\rowcolor{Gray}
+			%%Tangent bundles & Pre-classical & $\mathrm{T}\mathds{S}^7$ curved \\
+		%\end{tabularx}
+%\end{table}
+%\begin{remark}[Integrated point of view]
+%This is probably linked to that an LGB is locally trivial 
+%
+%$\rightsquigarrow$ LGB action locally equivalent to a Lie group action
+%\end{remark}
+%
+%\end{frame}
 
 \begin{frame}{Hope: Structural Lie groupoids}
 %\begin{table}[h!]
@@ -1052,7 +1081,7 @@ $\rightsquigarrow$ LGB action locally equivalent to a Lie group action
 
 \begin{remark}
 \begin{itemize}
-	\item Richer set of principal bundles, containing LGBs.
+	\item Richer set of principal bundles, containing Lie groupoids.
 	\item May result into obstruction statements for curved Yang-Mills-Higgs gauge theories.
 \end{itemize}
 \end{remark}
