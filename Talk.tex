@@ -285,6 +285,8 @@ $\rightsquigarrow$ We will use a general connection $\nabla$ instead of $\nabla^
 {
 \setbeamertemplate{footline}{}
 \begin{frame}
+\textbf{We will only focus on Yang-Mills theories:}
+
 \begin{table}[h!]
 		\begin{tabularx}{\textwidth}{X| c c} 
 			\rowcolor{gray}
@@ -297,7 +299,7 @@ $\rightsquigarrow$ We will use a general connection $\nabla$ instead of $\nabla^
 
 \begin{center}
 	\begin{tikzcd}[ampersand replacement=\&]
-	G \arrow{r} \& \mathcal{G} \\
+	G \arrow{r} \& \mathcal{G} \arrow{d} \\
 	\& M
 	\end{tikzcd}
 \end{center}
@@ -930,7 +932,7 @@ $\pi^H$ denotes the projection onto $H \subset \mathrm{T}\mathcal{P}$, then we d
 \bas
 F
 &\coloneqq
-\mathrm{d}^{\pi^*\nabla^{\mathcal{G}}} A \circ \mleft( \pi^{\mathrm{H}\mathcal{P}}, \pi^{\mathrm{H}\mathcal{P}} \mright)
+\mathrm{d}^{\pi^*\nabla^{\mathcal{G}}} A \circ \mleft( \pi^{\mathrm{H}}, \pi^{\mathrm{H}} \mright)
 	+ \pi^!\zeta.
 \eas
 \end{definition}

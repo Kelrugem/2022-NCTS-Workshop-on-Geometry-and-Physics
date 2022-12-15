@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8) (preloaded format=pdflatex 2022.8.15)  14 DEC 2022 13:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8) (preloaded format=pdflatex 2022.8.15)  15 DEC 2022 16:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1496,19 +1496,19 @@ Overfull \hbox (2.12502pt too wide) has occurred while \output is active
 [7
 
 ]
-Overfull \vbox (18.59836pt too high) detected at line 357
+Overfull \vbox (18.59836pt too high) detected at line 359
  []
 
 [8
 
 ]
-Overfull \vbox (18.59836pt too high) detected at line 357
+Overfull \vbox (18.59836pt too high) detected at line 359
  []
 
 [9
 
 ]
-Overfull \vbox (18.59836pt too high) detected at line 357
+Overfull \vbox (18.59836pt too high) detected at line 359
  []
 
 [10
@@ -1521,46 +1521,46 @@ Overfull \hbox (2.12502pt too wide) has occurred while \output is active
 [11
 
 ]
-Overfull \hbox (7.04929pt too wide) in paragraph at lines 449--449
+Overfull \hbox (7.04929pt too wide) in paragraph at lines 451--451
  [] 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 449.
+(Font)              <14.4> on input line 451.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 449.
+(Font)              <10> on input line 451.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 449.
+(Font)              <7> on input line 451.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 449.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 451.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 449.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 451.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 449.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 451.
 [12
 
 ]
-Overfull \hbox (7.04929pt too wide) in paragraph at lines 449--449
+Overfull \hbox (7.04929pt too wide) in paragraph at lines 451--451
  [] 
  []
 
 [13
 
 ]
-Overfull \hbox (7.04929pt too wide) in paragraph at lines 517--517
+Overfull \hbox (7.04929pt too wide) in paragraph at lines 519--519
  [] 
  []
 
 [14
 
 ]
-Overfull \vbox (14.54933pt too high) detected at line 570
+Overfull \vbox (14.54933pt too high) detected at line 572
  []
 
 [15
 
 ]
-Overfull \vbox (14.54933pt too high) detected at line 570
+Overfull \vbox (14.54933pt too high) detected at line 572
  []
 
 [16
@@ -1604,13 +1604,13 @@ Overfull \hbox (2.12502pt too wide) has occurred while \output is active
 ] [25
 
 ]
-Overfull \vbox (15.49881pt too high) detected at line 794
+Overfull \vbox (15.49881pt too high) detected at line 796
  []
 
 [26
 
 ]
-Overfull \vbox (15.49881pt too high) detected at line 794
+Overfull \vbox (15.49881pt too high) detected at line 796
  []
 
 [27
@@ -1658,7 +1658,7 @@ Overfull \hbox (2.12502pt too wide) has occurred while \output is active
 ] [38
 
 ]
-LaTeX Font Info:    Trying to load font information for U+dsrom on input line 1023.
+LaTeX Font Info:    Trying to load font information for U+dsrom on input line 1025.
  (C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/latex/doublestroke\udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
 ) [39
@@ -1686,10 +1686,10 @@ Package logreq Info: Writing requests to 'Talk.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49632 strings out of 477958
- 1165310 string characters out of 2833983
- 2967792 words of memory out of 3000000
- 67483 multiletter control sequences out of 15000+600000
+ 49631 strings out of 477958
+ 1165312 string characters out of 2833983
+ 2967451 words of memory out of 3000000
+ 67482 multiletter control sequences out of 15000+600000
  567671 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,29n,122p,1131b,8467s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1707,9 +1707,9 @@ pe1/public/lm/lmsso8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy
 s/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 ><C:/Users/kelru/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathscr.pfb>
-Output written on Talk.pdf (41 pages, 857483 bytes).
+Output written on Talk.pdf (41 pages, 850314 bytes).
 PDF statistics:
- 2420 PDF objects out of 2487 (max. 8388607)
+ 2380 PDF objects out of 2487 (max. 8388607)
  99 named destinations out of 1000 (max. 500000)
  1993 words of extra memory for PDF output out of 10000 (max. 10000000)
 
