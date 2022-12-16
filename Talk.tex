@@ -210,7 +210,7 @@
 \centering
 \begin{tikzpicture}
 \filldraw [fill=gray!10!white, draw=black] plot [smooth cycle] coordinates {(5,0.25) (6,0.35) (6.5, 0.2) (7,0.5) (7,1.65) (6.5,2.75) (5.8,2.75) (5.3,1.45) (4.8,0.85) } node at (6.2,1.7) {$(N, g)$} node at (6.2, 3.2) {Riemannian manifold};
-\path[->] (2.6,1.7) edge [bend left] node[above] {Higgs field} node[below] {$\Phi$} (5.0,1.7);
+\path[->] (2.6,1.7) edge [bend left] node[above] {Higgs field} node[below] {$\Psi$} (5.0,1.7);
 
 \filldraw [fill=gray!10!white, draw=black] (-0.2,.5) to[bend left] (1.3,2.85) to[bend left] (2.7,2) to[bend right] (1.8,.5) to[bend right] cycle node at (1.2,1.7) {$(M, \eta)$} node at (1.2, 3.2) {Spacetime};
 \path[->] (0.7,0.5) edge [bend right] node[left] {$A \in \Omega^1$} node[right] {Gauge bosons} (0.7, -1.5);
@@ -849,7 +849,12 @@ We have an induced vector bundle connection on $\mathcal{g}$ given by
 
 {
 \setbeamertemplate{footline}{}
+
 \begin{frame}
+\begin{remark}
+Recall, $\mathcal{G}$ a principal $\mathcal{G}$-bundle.
+\end{remark}
+
 \begin{definition}[Compatibility conditions, {[S.-R.\ F.]}]
 $\mu_{\mathcal{G}}$ a \textbf{Yang-Mills connection (w.r.t.\ $\zeta \in \Omega^2(M; \mathcal{g})$)} if it satisfies the \textbf{compatibility conditions}:
 \begin{enumerate}
@@ -881,10 +886,6 @@ Let $\mu_{\mathcal{G}}$ be a connection 1-form on $\mathcal{G}$, then
 	+ \mleft[ \mu, \nabla^{\mathcal{G}} \nu \mright]_{\mathcal{g}}.
 \eas
 \end{proposition}
-
-\begin{remark}
-Recall, $\mathcal{G}$ a principal $\mathcal{G}$-bundle.
-\end{remark}
 
 \pause
 
@@ -1077,7 +1078,7 @@ This principal $c_{\mathrm{SU}(2)}(P)$-bundle admits the structure as curved Yan
 \begin{center}
 	\begin{tikzcd}[ampersand replacement=\&, column sep=small]
 		\& \arrow{ld} \mathfrak{G} \arrow{rd} \& \\
-		M \arrow{rr}{\Phi} \& \& N
+		M \arrow{rr}{\Psi} \& \& N
 	\end{tikzcd}
 \end{center}
 
