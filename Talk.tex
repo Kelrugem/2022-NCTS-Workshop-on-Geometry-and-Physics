@@ -773,13 +773,13 @@ H_{p\cdot g}
 \begin{definition}[Connection 1-form, {[S.-R.\ F.]}]
 $A \in \Omega^1(\mathcal{P}; \pi^*\mathcal{g})$ with
 \bas
-\mathcal{r}_\sigma^! A
-&=
-\mathrm{Ad}_{\sigma^{-1}} \circ A,
-\\
 A\mleft(\overline{\nu}\mright)
 &=
-\pi^*\nu
+\pi^*\nu,
+\\
+\mathcal{r}_\sigma^! A
+&=
+\mathrm{Ad}_{\sigma^{-1}} \circ A
 \eas
 for all $\sigma \in \Gamma(\mathcal{G})$ and $\nu \in \Gamma(\mathcal{g})$.
 \end{definition}
@@ -928,6 +928,8 @@ such that the compatibility conditions are equivalent to
 {
 \setbeamertemplate{footline}{}
 \begin{frame}
+Given a Yang-Mills connection on $\mathcal{G}$:
+
 \begin{definition}[Generalized curvature/field strength $F$ of $A$, {[S.-R.\ F.]}]
 $\pi^H$ denotes the projection onto $H \subset \mathrm{T}\mathcal{P}$, then we define
 \bas
@@ -938,7 +940,7 @@ F
 \eas
 \end{definition}
 
-\begin{theorem}[Structure equation, {[S.-R.]}]
+\begin{theorem}[Structure equation, {[S.-R.\ F.]}]
 \bas
 F
 =
@@ -954,8 +956,8 @@ F
 
 \begin{proposition}[Properties of $F$, {[S.-R.\ F.]}]
 \begin{itemize}
-	\item $\mathcal{r}_{\sigma}^!F 	= 	\mathrm{Ad}_{\sigma^{-1}} \circ F$,
-	\item $F(X, \cdot) = 0$, if $X$ vertical.
+	\item $F(X, \cdot) = 0$, if $X$ vertical,
+	\item $\mathcal{r}_{\sigma}^!F 	= 	\mathrm{Ad}_{\sigma^{-1}} \circ F$.
 \end{itemize}
 \end{proposition}
 
