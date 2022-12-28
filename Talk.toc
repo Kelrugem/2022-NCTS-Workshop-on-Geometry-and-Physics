@@ -3,14 +3,14 @@
 \beamer@sectionintoc {2}{Integration: Ansatz}{6}{0}{2}
 \beamer@subsectionintoc {2}{1}{Principal bundles based on Lie group bundle actions}{6}{0}{2}
 \beamer@subsectionintoc {2}{2}{Connections as parallel transport}{12}{0}{2}
-\beamer@sectionintoc {3}{Connection}{19}{0}{3}
-\beamer@subsectionintoc {3}{1}{Basic notions}{19}{0}{3}
-\beamer@subsectionintoc {3}{2}{Definitions}{26}{0}{3}
-\beamer@subsectionintoc {3}{3}{Gauge transformation}{29}{0}{3}
-\beamer@sectionintoc {4}{Curvature}{30}{0}{4}
-\beamer@subsectionintoc {4}{1}{Compatibility conditions}{30}{0}{4}
-\beamer@subsectionintoc {4}{2}{Definition and properties}{35}{0}{4}
-\beamer@sectionintoc {5}{Curved Yang-Mills gauge theory}{38}{0}{5}
-\beamer@subsectionintoc {5}{1}{Definition}{38}{0}{5}
-\beamer@subsectionintoc {5}{2}{Example}{39}{0}{5}
-\beamer@sectionintoc {6}{Conclusion}{40}{0}{6}
+\beamer@sectionintoc {3}{Connection}{20}{0}{3}
+\beamer@subsectionintoc {3}{1}{Basic notions}{20}{0}{3}
+\beamer@subsectionintoc {3}{2}{Definitions}{27}{0}{3}
+\beamer@subsectionintoc {3}{3}{Gauge transformation}{30}{0}{3}
+\beamer@sectionintoc {4}{Curvature}{31}{0}{4}
+\beamer@subsectionintoc {4}{1}{Compatibility conditions}{31}{0}{4}
+\beamer@subsectionintoc {4}{2}{Definition and properties}{38}{0}{4}
+\beamer@sectionintoc {5}{Curved Yang-Mills gauge theory}{41}{0}{5}
+\beamer@subsectionintoc {5}{1}{Definition}{41}{0}{5}
+\beamer@subsectionintoc {5}{2}{Example}{42}{0}{5}
+\beamer@sectionintoc {6}{Conclusion}{43}{0}{6}

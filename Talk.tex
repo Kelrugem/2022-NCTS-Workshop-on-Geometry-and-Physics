@@ -352,10 +352,15 @@ $\bullet$ Or by $\mathcal{G} \cong M \times G$, then also $\mathcal{P} * \mathca
 (p, g) &\mapsto p \cdot g \coloneqq p \cdot \bigl( \pi(p), g \bigr),
 \eas
 which is equivalent to $\mathcal{P} * \mathcal{G} \to \mathcal{P}$.
-\pause
-
-$\Rightarrow$ Think of the "classical" theory as coming from a trivial LGB
 \end{example}
+\end{frame}
+
+\begin{frame}{Guide to recover the classics: Part 1 of 3}
+\begin{remark}
+\begin{enumerate}
+	\item $\mathcal{G} \cong M \times G$
+\end{enumerate}
+\end{remark}
 \end{frame}
 }
 
@@ -573,38 +578,38 @@ But:
 
 \begin{frame}{Connection on $\mathcal{P}$: General case}
 \setbeamercovered{invisible}
-	\begin{minipage}[]{0.45\textwidth} 
-	%If $\mathcal{P}$ a typical principal bundle and \textcolor[rgb]{0,0.58,0}{$H$} a connection on it:
-	\begin{figure}
-	\begin{tikzpicture}[scale=1.2]
-		%Gray area
-		\filldraw [fill=gray!20!white, draw=white] (3.5,2.5) to[out=280,in=95](3.66,1) to[out=275,in=85] (3.66,-1) to[out=265,in=80] (3.5,-2.5) -- (5,-2.5) to[out=80, in=265] (5.16, -1) to[out=85, in=275] (5.16, 1) to[out=95,in=280] (5,2.5) -- cycle;
-		%lines
-		\draw (4.25,2.5) to[out=280,in=95](4.41,1) to[out=275,in=85] (4.41,-1) to[out=265,in=80] (4.25,-2.5);
-		\definecolor{darkgreen}{rgb}{0,0.58,0}
-		\draw [draw=darkgreen] (3.66,-1) to[out=280,in=200] (4.41,-1) to[out=20,in=100] (5.16, -1);
-		\draw [draw=darkgreen] (3.66,1) to[out=280,in=200] (4.41,1) to[out=20,in=100] (5.16,1);
-		%Auxiliary stuff like arrows and dots
-		\filldraw [fill=red, draw=red] (4.41,1) circle (1pt);
-		\filldraw [fill=red, draw=red] (4.41,-1) circle (1pt);
-		\draw [<-, draw=blue] (5.16,1) to[out=275,in=85] (5.16,-1);
-		\draw [->, thick] (4.41,-1) -- (4.71,-0.88);
-		\draw [->, thick] (4.41,1) -- (4.63,2);
-		\draw [->,dotted,thick] (4.41,1) -- (4.71,1.12);
-		\draw [<-,dotted,thick] (4.63,2) -- (4.71,1.12);
-		%Labels
-		\draw (3.2,1) node {\textcolor[rgb]{0,0.58,0}{$H_{p \cdot \sigma_x}$}};
-		\draw (3.2,-1) node {\textcolor[rgb]{0,0.58,0}{$H_p$}};
-		\draw (5.5,0) node {\textcolor[rgb]{0,0,1}{$\cdot \sigma$}};
-		\draw (3,2.2) node {$\mathcal{P}_U$};
-		\draw (4.71,-0.6) node {$X$};
-		\draw (5,2.25) node {$\mathrm{D}_pr_\sigma(X)$};
-		\draw (5.5,1.56) node {$\thicksim \mathrm{D}_p\sigma_\pi(X)$};
-		%Text
-	\end{tikzpicture}
-	\end{figure}
-	\end{minipage}\hfill
-	\begin{minipage}[]{0.5\textwidth} 
+	%\begin{minipage}[]{0.45\textwidth} 
+	%%If $\mathcal{P}$ a typical principal bundle and \textcolor[rgb]{0,0.58,0}{$H$} a connection on it:
+	%\begin{figure}
+	%\begin{tikzpicture}[scale=1.2]
+		%%Gray area
+		%\filldraw [fill=gray!20!white, draw=white] (3.5,2.5) to[out=280,in=95](3.66,1) to[out=275,in=85] (3.66,-1) to[out=265,in=80] (3.5,-2.5) -- (5,-2.5) to[out=80, in=265] (5.16, -1) to[out=85, in=275] (5.16, 1) to[out=95,in=280] (5,2.5) -- cycle;
+		%%lines
+		%\draw (4.25,2.5) to[out=280,in=95](4.41,1) to[out=275,in=85] (4.41,-1) to[out=265,in=80] (4.25,-2.5);
+		%\definecolor{darkgreen}{rgb}{0,0.58,0}
+		%\draw [draw=darkgreen] (3.66,-1) to[out=280,in=200] (4.41,-1) to[out=20,in=100] (5.16, -1);
+		%\draw [draw=darkgreen] (3.66,1) to[out=280,in=200] (4.41,1) to[out=20,in=100] (5.16,1);
+		%%Auxiliary stuff like arrows and dots
+		%\filldraw [fill=red, draw=red] (4.41,1) circle (1pt);
+		%\filldraw [fill=red, draw=red] (4.41,-1) circle (1pt);
+		%\draw [<-, draw=blue] (5.16,1) to[out=275,in=85] (5.16,-1);
+		%\draw [->, thick] (4.41,-1) -- (4.71,-0.88);
+		%\draw [->, thick] (4.41,1) -- (4.63,2);
+		%\draw [->,dotted,thick] (4.41,1) -- (4.71,1.12);
+		%\draw [<-,dotted,thick] (4.63,2) -- (4.71,1.12);
+		%%Labels
+		%\draw (3.2,1) node {\textcolor[rgb]{0,0.58,0}{$H_{p \cdot \sigma_x}$}};
+		%\draw (3.2,-1) node {\textcolor[rgb]{0,0.58,0}{$H_p$}};
+		%\draw (5.5,0) node {\textcolor[rgb]{0,0,1}{$\cdot \sigma$}};
+		%\draw (3,2.2) node {$\mathcal{P}_U$};
+		%\draw (4.71,-0.6) node {$X$};
+		%\draw (5,2.25) node {$\mathrm{D}_pr_\sigma(X)$};
+		%\draw (5.5,1.56) node {$\thicksim \mathrm{D}_p\sigma_\pi(X)$};
+		%%Text
+	%\end{tikzpicture}
+	%\end{figure}
+	%\end{minipage}\hfill
+	%\begin{minipage}[]{0.5\textwidth} 
 	%%Properties regarding the shift:
 	%Now:
 	%\bas
@@ -618,18 +623,27 @@ But:
 		%\item Shift is vertical in $\mathcal{P}$
 	%\end{itemize}
 	\begin{remark}[Integrated case]
-	Ansatz:
+	Ansatz: Introduce connection on $\mathcal{G}$,
 		\bas
 		\mathup{PT}^{\mathcal{P}}_\alpha(p \cdot g)
 		&=
-		\mathup{PT}^{\mathcal{P}}_\alpha(p) \cdot \mathup{PT}^{\mathcal{G}}_\alpha (g)
+		\mathup{PT}^{\mathcal{P}}_\alpha(p) \cdot \mathup{PT}^{\mathcal{G}}_\alpha (g).
 		\eas
-	\pause
-	$\Rightarrow$ Introduce connection on $\mathcal{G}$
 	\end{remark}
-	\end{minipage}
+	%\end{minipage}
+\end{frame}
+
+\begin{frame}{Guide to recover the classics: Part 2 of 3}
+\begin{remark}
+\begin{enumerate}
+	\item $\mathcal{G} \cong M \times G$
+	\pause
+	\item Equip $\mathcal{G}$ with canonical flat connection
+\end{enumerate}
+\end{remark}
 \end{frame}
 }
+
 \section{Connection}
 \subsection{Basic notions}
 
@@ -922,6 +936,20 @@ such that the compatibility conditions are equivalent to
 \eas
 \end{remark}
 \end{frame}
+
+{
+\setbeamertemplate{footline}{}
+\begin{frame}{Guide to recover the classics: Part 3 of 3}
+\begin{remark}
+\begin{enumerate}
+	\item $\mathcal{G} \cong M \times G$
+	\item Equip $\mathcal{G}$ with canonical flat connection
+	\pause
+	\item $\zeta \equiv 0$
+\end{enumerate}
+\end{remark}
+\end{frame}
+}
 
 \subsection{Definition and properties}
 

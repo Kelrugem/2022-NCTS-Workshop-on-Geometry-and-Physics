@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8) (preloaded format=pdflatex 2022.8.15)  27 DEC 2022 13:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8) (preloaded format=pdflatex 2022.8.15)  28 DEC 2022 13:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1496,22 +1496,18 @@ Overfull \hbox (2.12502pt too wide) has occurred while \output is active
 [7
 
 ]
-Overfull \vbox (18.59836pt too high) detected at line 359
+Overfull \vbox (4.99835pt too high) detected at line 356
  []
 
 [8
 
 ]
-Overfull \vbox (18.59836pt too high) detected at line 359
+Overfull \vbox (4.99835pt too high) detected at line 356
  []
 
 [9
 
-]
-Overfull \vbox (18.59836pt too high) detected at line 359
- []
-
-[10
+] [10
 
 ]
 Overfull \hbox (2.12502pt too wide) has occurred while \output is active
@@ -1521,46 +1517,46 @@ Overfull \hbox (2.12502pt too wide) has occurred while \output is active
 [11
 
 ]
-Overfull \hbox (7.04929pt too wide) in paragraph at lines 451--451
+Overfull \hbox (7.04929pt too wide) in paragraph at lines 456--456
  [] 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 451.
+(Font)              <14.4> on input line 456.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 451.
+(Font)              <10> on input line 456.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 451.
+(Font)              <7> on input line 456.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 451.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 456.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 451.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 456.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 451.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 456.
 [12
 
 ]
-Overfull \hbox (7.04929pt too wide) in paragraph at lines 451--451
+Overfull \hbox (7.04929pt too wide) in paragraph at lines 456--456
  [] 
  []
 
 [13
 
 ]
-Overfull \hbox (7.04929pt too wide) in paragraph at lines 519--519
+Overfull \hbox (7.04929pt too wide) in paragraph at lines 524--524
  [] 
  []
 
 [14
 
 ]
-Overfull \vbox (14.54933pt too high) detected at line 572
+Overfull \vbox (14.54933pt too high) detected at line 577
  []
 
 [15
 
 ]
-Overfull \vbox (14.54933pt too high) detected at line 572
+Overfull \vbox (14.54933pt too high) detected at line 577
  []
 
 [16
@@ -1569,12 +1565,7 @@ Overfull \vbox (14.54933pt too high) detected at line 572
 
 ] [18
 
-]
-Overfull \hbox (2.12502pt too wide) has occurred while \output is active
-[][][][] 
- []
-
-[19
+] [19
 
 ]
 Overfull \hbox (2.12502pt too wide) has occurred while \output is active
@@ -1597,43 +1588,43 @@ Overfull \hbox (2.12502pt too wide) has occurred while \output is active
 
 [22
 
-] [23
+]
+Overfull \hbox (2.12502pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[23
 
 ] [24
 
 ] [25
 
-]
-Overfull \vbox (17.0555pt too high) detected at line 796
- []
-
-[26
+] [26
 
 ]
-Overfull \vbox (17.0555pt too high) detected at line 796
+Overfull \vbox (17.0555pt too high) detected at line 810
  []
 
 [27
 
-] [28
+]
+Overfull \vbox (17.0555pt too high) detected at line 810
+ []
+
+[28
 
 ] [29
 
-]
-Overfull \hbox (2.12502pt too wide) has occurred while \output is active
-[][][][] 
- []
-
-[30
-
-] [31
+] [30
 
 ]
 Overfull \hbox (2.12502pt too wide) has occurred while \output is active
 [][][][] 
  []
 
-[32
+[31
+
+] [32
 
 ]
 Overfull \hbox (2.12502pt too wide) has occurred while \output is active
@@ -1649,7 +1640,12 @@ Overfull \hbox (2.12502pt too wide) has occurred while \output is active
 
 [34
 
-] [35
+]
+Overfull \hbox (2.12502pt too wide) has occurred while \output is active
+[][][][] 
+ []
+
+[35
 
 ] [36
 
@@ -1657,19 +1653,25 @@ Overfull \hbox (2.12502pt too wide) has occurred while \output is active
 
 ] [38
 
-]
-LaTeX Font Info:    Trying to load font information for U+dsrom on input line 1028.
- (C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/latex/doublestroke\udsrom.fd
-File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
-) [39
+] [39
 
-]
-Overfull \vbox (13.4855pt too high) detected at line 1097
- []
-
-[40
+] [40
 
 ] [41
+
+]
+LaTeX Font Info:    Trying to load font information for U+dsrom on input line 1056.
+ (C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/latex/doublestroke\udsrom.fd
+File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
+) [42
+
+]
+Overfull \vbox (13.4855pt too high) detected at line 1125
+ []
+
+[43
+
+] [44
 
 ]
 \tf@nav=\write7
@@ -1683,16 +1685,16 @@ Overfull \vbox (13.4855pt too high) detected at line 1097
 
  (Talk.aux)
 Package rerunfilecheck Info: File `Talk.out' has not changed.
-(rerunfilecheck)             Checksum: DA3A52C985F7C6D51DCA5CC5A589DEB8;2305.
+(rerunfilecheck)             Checksum: E642DD93597F107B57590758EABE7689;2305.
 Package logreq Info: Writing requests to 'Talk.run.xml'.
 \openout1 = `Talk.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49631 strings out of 477958
- 1165306 string characters out of 2833983
- 2967451 words of memory out of 3000000
- 67482 multiletter control sequences out of 15000+600000
+ 49655 strings out of 477958
+ 1165994 string characters out of 2833983
+ 2969580 words of memory out of 3000000
+ 67500 multiletter control sequences out of 15000+600000
  567671 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,29n,122p,1131b,8467s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1708,11 +1710,11 @@ c/lm/lmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss9.pfb><C:/
 lic/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/lm/lmsso8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb
-><C:/Users/kelru/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathscr.pfb>
-Output written on Talk.pdf (41 pages, 847960 bytes).
+nts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/kelru/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mat
+hscr.pfb>
+Output written on Talk.pdf (44 pages, 898550 bytes).
 PDF statistics:
- 2371 PDF objects out of 2487 (max. 8388607)
- 99 named destinations out of 1000 (max. 500000)
- 1963 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2640 PDF objects out of 2984 (max. 8388607)
+ 105 named destinations out of 1000 (max. 500000)
+ 2041 words of extra memory for PDF output out of 10000 (max. 10000000)
 
