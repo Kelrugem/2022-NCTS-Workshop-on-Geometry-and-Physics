@@ -176,6 +176,12 @@
 \newtheorem*{fieldredefinition}{Field Redefinition}
 \newtheorem*{construction}{Construction}
 \newtheorem*{aim}{Aim}
+\newtheorem*{BackToTheRoots}{Guide to recover the classical theory}
+
+\AtBeginEnvironment{BackToTheRoots}{%
+  \setbeamercolor{block title}{use=example text,fg=black,bg=pink!75!black}
+  \setbeamercolor{block body}{parent=normal text,use=block title example,bg=pink!10}
+}
 
 %\theoremstyle{definition}
 %\newtheorem{definition}[theorem]{Definition}
@@ -355,12 +361,12 @@ which is equivalent to $\mathcal{P} * \mathcal{G} \to \mathcal{P}$.
 \end{example}
 \end{frame}
 
-\begin{frame}{Guide to recover the classics: Part 1 of 3}
-\begin{remark}
+\begin{frame}
+\begin{BackToTheRoots}[Part 1 of 3]
 \begin{enumerate}
 	\item $\mathcal{G} \cong M \times G$
 \end{enumerate}
-\end{remark}
+\end{BackToTheRoots}
 \end{frame}
 }
 
@@ -577,7 +583,7 @@ But:
 \end{frame}
 
 \begin{frame}{Connection on $\mathcal{P}$: General case}
-\setbeamercovered{invisible}
+%\setbeamercovered{invisible}
 	%\begin{minipage}[]{0.45\textwidth} 
 	%%If $\mathcal{P}$ a typical principal bundle and \textcolor[rgb]{0,0.58,0}{$H$} a connection on it:
 	%\begin{figure}
@@ -630,17 +636,13 @@ But:
 		\mathup{PT}^{\mathcal{P}}_\alpha(p) \cdot \mathup{PT}^{\mathcal{G}}_\alpha (g).
 		\eas
 	\end{remark}
-	%\end{minipage}
-\end{frame}
-
-\begin{frame}{Guide to recover the classics: Part 2 of 3}
-\begin{remark}
+	\pause
+\begin{BackToTheRoots}[Part 2 of 3]
 \begin{enumerate}
 	\item $\mathcal{G} \cong M \times G$
-	\pause
 	\item Equip $\mathcal{G}$ with canonical flat connection
 \end{enumerate}
-\end{remark}
+\end{BackToTheRoots}
 \end{frame}
 }
 
@@ -916,8 +918,9 @@ R_{\nabla^{\mathcal{G}}}
 \renewcommand\insertreferences{{\tiny For differential: Marius Crainic, Maria Amelia Salazar, and Ivan Struchiner. Multiplicative forms and Spencer operators. \newline \textit{Mathematische Zeitschrift}, 279(3):939–979, 2015.}}
 
 \begin{frame}
+%\setbeamercovered{invisible}
 \begin{remark}
-There is a simplicial differential on $\mathcal{G} \stackrel{\pi_{\mathcal{G}}}{\to} M$
+There is a simplicial differential $\delta$ on $\mathcal{G} \stackrel{\pi_{\mathcal{G}}}{\to} M$
 \bas
 \delta: \Omega^\bullet( \underbrace{\mathcal{G} * \dotsc * \mathcal{G}}_{k \text{ times}}; \pi_{\mathcal{G}}^*\mathcal{g} )
 &\to
@@ -927,29 +930,29 @@ such that the compatibility conditions are equivalent to
 \bas
 \delta \mu_{\mathcal{G}}
 &=
-0,
-\\
+0
+&\text{ and }&&
 \mathrm{d}^{\pi_{\mathcal{G}}^*\nabla^{\mathcal{G}}} \mu_{\mathcal{G}}
 	+ \frac{1}{2} \mleft[ \mu_{\mathcal{G}} \stackrel{\wedge}{,} \mu_{\mathcal{G}} \mright]_{\pi_{\mathcal{G}}^*\mathcal{g}}
 &=
 \delta \zeta.
 \eas
 \end{remark}
-\end{frame}
-
-{
-\setbeamertemplate{footline}{}
-\begin{frame}{Guide to recover the classics: Part 3 of 3}
-\begin{remark}
+%\end{frame}
+\pause
+%{
+%\setbeamertemplate{footline}{}
+%\begin{frame}{Guide to recover the classical theory: Part 3 of 3}
+\begin{BackToTheRoots}[Part 3 of 3]
 \begin{enumerate}
 	\item $\mathcal{G} \cong M \times G$
 	\item Equip $\mathcal{G}$ with canonical flat connection
-	\pause
+	%\pause
 	\item $\zeta \equiv 0$
 \end{enumerate}
-\end{remark}
+\end{BackToTheRoots}
 \end{frame}
-}
+%}
 
 \subsection{Definition and properties}
 
