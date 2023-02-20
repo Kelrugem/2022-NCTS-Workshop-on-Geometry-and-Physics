@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.15)  15 FEB 2023 11:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.15)  20 FEB 2023 16:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -665,12 +665,101 @@ Package: amsthm 2020/05/29 v2.20.6
 \beamer@dimb=\dimen293
 )
 (C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/latex/beamer\beamerouterthemedefault.sty)))
-(C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty
+(C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/latex/cjk\CJKutf8.sty
+Package: CJKutf8 2021/10/16 4.8.5
+
+(C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+(C:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks45
+\inpenc@posthook=\toks46
+)
+(C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/latex/cjk\CJK.sty
+Package: CJK 2021/10/16 4.8.5
+
+(C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/latex/cjk/mule\MULEenc.sty
+Package: MULEenc 2021/10/16 4.8.5
+)
+(C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/latex/cjk\CJK.enc
+File: CJK.enc 2021/10/16 4.8.5
+Now handling font encoding C00 ...
+... no UTF-8 mapping file for font encoding C00
+Now handling font encoding C05 ...
+... no UTF-8 mapping file for font encoding C05
+Now handling font encoding C09 ...
+... no UTF-8 mapping file for font encoding C09
+Now handling font encoding C10 ...
+... no UTF-8 mapping file for font encoding C10
+Now handling font encoding C20 ...
+... no UTF-8 mapping file for font encoding C20
+Now handling font encoding C19 ...
+... no UTF-8 mapping file for font encoding C19
+Now handling font encoding C40 ...
+... no UTF-8 mapping file for font encoding C40
+Now handling font encoding C42 ...
+... no UTF-8 mapping file for font encoding C42
+Now handling font encoding C43 ...
+... no UTF-8 mapping file for font encoding C43
+Now handling font encoding C50 ...
+... no UTF-8 mapping file for font encoding C50
+Now handling font encoding C52 ...
+... no UTF-8 mapping file for font encoding C52
+Now handling font encoding C49 ...
+... no UTF-8 mapping file for font encoding C49
+Now handling font encoding C60 ...
+... no UTF-8 mapping file for font encoding C60
+Now handling font encoding C61 ...
+... no UTF-8 mapping file for font encoding C61
+Now handling font encoding C63 ...
+... no UTF-8 mapping file for font encoding C63
+Now handling font encoding C64 ...
+... no UTF-8 mapping file for font encoding C64
+Now handling font encoding C65 ...
+... no UTF-8 mapping file for font encoding C65
+Now handling font encoding C70 ...
+... no UTF-8 mapping file for font encoding C70
+Now handling font encoding C31 ...
+... no UTF-8 mapping file for font encoding C31
+Now handling font encoding C32 ...
+... no UTF-8 mapping file for font encoding C32
+Now handling font encoding C33 ...
+... no UTF-8 mapping file for font encoding C33
+Now handling font encoding C34 ...
+... no UTF-8 mapping file for font encoding C34
+Now handling font encoding C35 ...
+... no UTF-8 mapping file for font encoding C35
+Now handling font encoding C36 ...
+... no UTF-8 mapping file for font encoding C36
+Now handling font encoding C37 ...
+... no UTF-8 mapping file for font encoding C37
+Now handling font encoding C80 ...
+... no UTF-8 mapping file for font encoding C80
+Now handling font encoding C81 ...
+... no UTF-8 mapping file for font encoding C81
+Now handling font encoding C01 ...
+... no UTF-8 mapping file for font encoding C01
+Now handling font encoding C11 ...
+... no UTF-8 mapping file for font encoding C11
+Now handling font encoding C21 ...
+... no UTF-8 mapping file for font encoding C21
+Now handling font encoding C41 ...
+... no UTF-8 mapping file for font encoding C41
+Now handling font encoding C62 ...
+... no UTF-8 mapping file for font encoding C62
+)
+\CJK@indent=\box76
+)
+(C:\Program Files\MiKTeX 2.9\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)) (C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty
 Package: babel 2022/01/23 3.85 The Babel package
 \babel@savecnt=\count333
 \U@D=\dimen294
 \l@unhyphenated=\language83
- (C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def)
+
+(C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read3
 LaTeX Info: Redefining \textlatin on input line 4076.
 \bbl@dirlevel=\count334
@@ -773,7 +862,7 @@ Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 \l_MT_below_intertext_sep=\dimen301
 \l_MT_above_shortintertext_sep=\dimen302
 \l_MT_below_shortintertext_sep=\dimen303
-\xmathstrut@box=\box76
+\xmathstrut@box=\box77
 \xmathstrut@dim=\dimen304
 )
 (C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/generic/mleftright\mleftright.sty
@@ -788,7 +877,7 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 
 (C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box77
+\pgfnodeparttextbox=\box78
 )
 (C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -806,8 +895,8 @@ Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen307
 \pgffor@skip=\dimen308
-\pgffor@stack=\toks45
-\pgffor@toks=\toks46
+\pgffor@stack=\toks47
+\pgffor@toks=\toks48
 ))
 (C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
@@ -825,10 +914,10 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@lastmovetoy=\dimen315
 \tikzleveldistance=\dimen316
 \tikzsiblingdistance=\dimen317
-\tikz@figbox=\box78
-\tikz@figbox@bg=\box79
-\tikz@tempbox=\box80
-\tikz@tempbox@bg=\box81
+\tikz@figbox=\box79
+\tikz@figbox@bg=\box80
+\tikz@tempbox=\box81
+\tikz@tempbox@bg=\box82
 \tikztreelevel=\count340
 \tikznumberofchildren=\count341
 \tikznumberofcurrentchild=\count342
@@ -865,12 +954,12 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 (C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/latex/tools\array.sty
 Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen322
-\ar@mcellbox=\box82
+\ar@mcellbox=\box83
 \extrarowheight=\dimen323
-\NC@list=\toks47
+\NC@list=\toks49
 \extratabsurround=\skip69
 \backup@length=\skip70
-\ar@cellbox=\box83
+\ar@cellbox=\box84
 )
 \TX@col@width=\dimen324
 \TX@old@table=\dimen325
@@ -878,11 +967,11 @@ Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
 \TX@target=\dimen327
 \TX@delta=\dimen328
 \TX@cols=\count348
-\TX@ftn=\toks48
+\TX@ftn=\toks50
 )
 (C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
-\everycr=\toks49
+\everycr=\toks51
 \minrowclearance=\skip71
 \rownum=\count349
 )
@@ -892,9 +981,9 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 
 (C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots\pgfplots.code.tex
 (C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots\pgfplotscore.code.tex
-\t@pgfplots@toka=\toks50
-\t@pgfplots@tokb=\toks51
-\t@pgfplots@tokc=\toks52
+\t@pgfplots@toka=\toks52
+\t@pgfplots@tokb=\toks53
+\t@pgfplots@tokc=\toks54
 \pgfplots@tmpa=\dimen329
 \c@pgfplots@coordindex=\count350
 \c@pgfplots@scanlineindex=\count351
@@ -904,9 +993,9 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 (C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex
 (C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
-\t@pgf@toka=\toks53
-\t@pgf@tokb=\toks54
-\t@pgf@tokc=\toks55
+\t@pgf@toka=\toks55
+\t@pgf@tokb=\toks56
+\t@pgf@tokc=\toks57
 
 (C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_pgfutil-common-lists.t
 ex)) (C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/util\pgfplotsutil.code.tex
@@ -918,7 +1007,7 @@ ex)) (C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/util\pgfplo
 (C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex)
 (C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
 \c@pgfplotstable@counta=\count353
-\t@pgfplotstable@a=\toks56
+\t@pgfplotstable@a=\toks58
 )
 (C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex)
 (C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/util\pgfplotsbinary.code.tex
@@ -951,7 +1040,7 @@ ex)) (C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/generic/pgfplots/util\pgfplo
 \pgfdecorationsegmentamplitude=\dimen335
 \pgfdecorationsegmentlength=\dimen336
 )
-\tikz@lib@dec@box=\box84
+\tikz@lib@dec@box=\box85
 )
 (C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorph
 ing.code.tex
@@ -1210,7 +1299,7 @@ Package: expl3 2023-02-02 L3 programming layer (loader)
 (C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count483
-\l__pdf_internal_box=\box85
+\l__pdf_internal_box=\box86
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2023-02-02 L3 programming layer (loader) 
@@ -1258,6 +1347,70 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 195.
 LaTeX Font Info:    ... okay on input line 195.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 195.
 LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
 LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 195.
 LaTeX Font Info:    Trying to load font information for LS1+stix on input line 195.
 
@@ -1304,15 +1457,15 @@ LaTeX Font Info:    ... okay on input line 195.
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count486
 \scratchdimen=\dimen343
-\scratchbox=\box86
+\scratchbox=\box87
 \nofMPsegments=\count487
 \nofMParguments=\count488
-\everyMPshowfont=\toks57
+\everyMPshowfont=\toks59
 \MPscratchCnt=\count489
 \MPscratchDim=\dimen344
 \MPnumerator=\count490
 \makeMPintoPDFobject=\count491
-\everyMPtoPDFconversion=\toks58
+\everyMPtoPDFconversion=\toks60
 ) (C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1415,23 +1568,38 @@ Overfull \hbox (2.12502pt too wide) in paragraph at lines 195--195
 [][][][]  
  []
 
-[1
+(C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/latex/cjk/UTF8\UTF8.bdg
+File: UTF8.bdg 2021/10/16 4.8.5
+)
+(C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/latex/cjk/UTF8\UTF8.enc
+File: UTF8.enc 2021/10/16 4.8.5
+)
+(C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/latex/cjk/UTF8\UTF8.chr
+File: UTF8.chr 2021/10/16 4.8.5
+)
+LaTeX Font Info:    Trying to load font information for C70+bsmi on input line 201.
+
+(C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/latex/cjk/UTF8\c70bsmi.fd
+File: c70bsmi.fd 2021/10/16 4.8.5
+)
+(C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/latex/cjk/UTF8\c70bsmi.fdx
+File: c70bsmi.fdx 2021/10/16 4.8.5
+) [1
 
 {C:/Users/kelru/AppData/Local/MiKTeX/2.9/fonts/map/pdftex/pdftex.map}] (Talk.toc) [2
 
 ]
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 258.
-
-(C:\Program Files\MiKTeX 2.9\tex/latex/lm\omllmm.fd
+ (C:\Program Files\MiKTeX 2.9\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 258.
- (C:\Program Files\MiKTeX 2.9\tex/latex/lm\omslmsy.fd
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 258.
-
-(C:\Program Files\MiKTeX 2.9\tex/latex/lm\omxlmex.fd
+ (C:\Program Files\MiKTeX 2.9\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1441,12 +1609,12 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 258.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 258.
- (C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 258.
-
-(C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd
+ (C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 258.
@@ -1600,13 +1768,13 @@ Overfull \hbox (2.12502pt too wide) has occurred while \output is active
 ] [25
 
 ]
-Overfull \vbox (17.0555pt too high) detected at line 812
+Overfull \vbox (17.0555pt too high) detected at line 814
  []
 
 [26
 
 ]
-Overfull \vbox (17.0555pt too high) detected at line 812
+Overfull \vbox (17.0555pt too high) detected at line 814
  []
 
 [27
@@ -1661,13 +1829,13 @@ Overfull \hbox (2.12502pt too wide) has occurred while \output is active
 ] [39
 
 ]
-LaTeX Font Info:    Trying to load font information for U+dsrom on input line 1059.
+LaTeX Font Info:    Trying to load font information for U+dsrom on input line 1061.
  (C:\Users\kelru\AppData\Roaming\MiKTeX\2.9\tex/latex/doublestroke\udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
 ) [40
 
 ]
-Overfull \vbox (13.4855pt too high) detected at line 1128
+Overfull \vbox (13.4855pt too high) detected at line 1130
  []
 
 [41
@@ -1692,16 +1860,22 @@ Package logreq Info: Writing requests to 'Talk.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49623 strings out of 476340
- 1164152 string characters out of 5795371
- 3022751 words of memory out of 5000000
- 69092 multiletter control sequences out of 15000+600000
- 610699 words of font info for 123 fonts, out of 8000000 for 9000
+ 51273 strings out of 476340
+ 1185924 string characters out of 5795371
+ 3045148 words of memory out of 5000000
+ 70654 multiletter control sequences out of 15000+600000
+ 613364 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,29n,122p,1131b,8460s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.en
 c}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathi
-t.enc}<C:/Users/kelru/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/doublestroke/dsrom10.pfb><C:/Program Files/MiKTeX 2.
+t.enc}<C:/Users/kelru/AppData/Roaming/MiKTeX/2.9/fonts/type1/arphic/bsmiu/bsmiu4e.pfb><C:/Users/kelru/AppData/Roaming/Mi
+KTeX/2.9/fonts/type1/arphic/bsmiu/bsmiu57.pfb><C:/Users/kelru/AppData/Roaming/MiKTeX/2.9/fonts/type1/arphic/bsmiu/bsmiu5
+b.pfb><C:/Users/kelru/AppData/Roaming/MiKTeX/2.9/fonts/type1/arphic/bsmiu/bsmiu5f.pfb><C:/Users/kelru/AppData/Roaming/Mi
+KTeX/2.9/fonts/type1/arphic/bsmiu/bsmiu74.pfb><C:/Users/kelru/AppData/Roaming/MiKTeX/2.9/fonts/type1/arphic/bsmiu/bsmiu7
+8.pfb><C:/Users/kelru/AppData/Roaming/MiKTeX/2.9/fonts/type1/arphic/bsmiu/bsmiu79.pfb><C:/Users/kelru/AppData/Roaming/Mi
+KTeX/2.9/fonts/type1/arphic/bsmiu/bsmiu7a.pfb><C:/Users/kelru/AppData/Roaming/MiKTeX/2.9/fonts/type1/arphic/bsmiu/bsmiu8
+a.pfb><C:/Users/kelru/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/doublestroke/dsrom10.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/line10.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmm
 i10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/
@@ -1713,9 +1887,9 @@ pe1/public/lm/lmsso8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy
 s/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/kelru/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mat
 hscr.pfb>
-Output written on Talk.pdf (42 pages, 873079 bytes).
+Output written on Talk.pdf (42 pages, 912035 bytes).
 PDF statistics:
- 2496 PDF objects out of 2984 (max. 8388607)
+ 2550 PDF objects out of 2984 (max. 8388607)
  101 named destinations out of 1000 (max. 500000)
- 2119 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2155 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,5 +1,5 @@
 \documentclass[hyperref={pdfpagelabels=false}]{beamer}
-
+\usepackage{CJKutf8}
 \usepackage[english]{babel}
 \usepackage{xcolor}
 \usepackage{lmodern}
@@ -126,7 +126,7 @@
 \title{Curved Yang-Mills gauge theories}   
 \subtitle{based on my preprint arXiv:2210.02924}   
 \author{Simon-Raphael Fischer} 
-\institute{National Center for Theoretical Sciences}
+\institute{\begin{CJK*}{UTF8}{bsmi}國家理論科學研究中心\end{CJK*}}
 \date{22 February 2023} 
 %\date{Le lundi 31 mai 2021} 
 
@@ -734,17 +734,18 @@ for all $(p, g) \in \mathcal{P}_x \times \mathcal{G}_x$, $(X, Y) \in \mathrm{T}_
 \end{proposition}
 \pause
 \begin{definition}[Modified right-pushforward, {[S.-R.\ F.]}]
+Define
 \bas
 \mathcal{r}_{g*}(X)
 &\coloneqq
 \mathrm{D}_pr_\sigma\mleft( X \mright)
 	- \mleft.{\overline{
 		\mleft. \mleft( \pi^!\Delta\sigma \mright) \mright|_p(X)
-	}}\mright|_{p \cdot g},
-\\
-\mathcal{r}_{\sigma*}(X)
-&\coloneqq
-\mathcal{r}_{\sigma_x*}(X).
+	}}\mright|_{p \cdot g}.
+%\\
+%\mathcal{r}_{\sigma*}(X)
+%&\coloneqq
+%\mathcal{r}_{\sigma_x*}(X).
 \eas
 \end{definition}
 \end{frame}
@@ -758,14 +759,15 @@ X
 &\mapsto 
 \mathcal{r}_{g*}(X),
 \eas
-is a well-defined automorphism over $r_g$. Similarly,
-\bas
-\mathrm{T}\mathcal{P} &\to \mathrm{T}\mathcal{P},\\
-X 
-&\mapsto 
-\mathcal{r}_{\sigma*}(X),
-\eas
-is an automorphism over $r_\sigma$.
+is a well-defined automorphism over $r_g$. 
+%Similarly,
+%\bas
+%\mathrm{T}\mathcal{P} &\to \mathrm{T}\mathcal{P},\\
+%X 
+%&\mapsto 
+%\mathcal{r}_{\sigma*}(X),
+%\eas
+%is an automorphism over $r_\sigma$.
 \end{proposition}
 \end{frame}
 }
@@ -806,7 +808,7 @@ for all $\sigma \in \Gamma(\mathcal{G})$ and $\nu \in \Gamma(\mathcal{g})$.
 \bas
 \mleft(\mathcal{r}_\sigma^! A\mright)_p(X)
 &=
-A_{p\sigma_x}\bigl(\mathcal{r}_{\sigma*}(X)\bigr).
+A_{p\sigma_x}\bigl(\mathcal{r}_{\sigma_x*}(X)\bigr).
 \eas
 \end{remark}
 \end{frame}
@@ -1052,7 +1054,7 @@ Define $\mathcal{P} \coloneqq \mathcal{G}$ as the inner group bundle of $P$,
 &\coloneqq
 c_{\mathrm{SU}(2)}(P)
 \coloneqq 
-(P\times G) \Big/ G.
+\bigl(P\times \mathrm{SU}(2)\bigr) \Big/ \mathrm{SU}(2).
 \eas
 This principal $c_{\mathrm{SU}(2)}(P)$-bundle admits the structure as curved Yang-Mills gauge theory; there is no description as flat theory.
 \end{example}
